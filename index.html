@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +9,222 @@
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <h1>panda commerce</h1>
+    <header id="header" class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="css/panda-commerce/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Populer Product
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Shoes</a></li>
+                                <li><a class="dropdown-item" href="#">Backpack</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Others</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shoes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Backpack</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Login</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li> -->
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <div class="banner_area">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row align-items-center">
+                            <div class="col-7">
+                                <h1>Mega LCD TV For Sports</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem provident ullam nobis?
+                                </p>
+                                <h1 class="banner-product-pricing">$600</h1>
+                                <button class="buy-now-btn">Buy Now >></button>
+                            </div>
+                            <div class="col-4"><img src="css/panda-commerce/banner-images/tv .png" class="d-block w-100"
+                                    alt="..."></div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-7">
+                                <h1>Mega LCD TV For Sports</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem provident ullam nobis?
+                                </p>
+                                <h1 class="banner-product-pricing">$600</h1>
+                                <button class="buy-now-btn">Buy Now</button>
+                            </div>
+                            <div class="col-4"><img src="css/panda-commerce/banner-images/headphone.png"
+                                    class="d-block w-100" alt="..."></div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-7">
+                                <h1>Mega LCD TV For Sports</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem provident ullam nobis?
+                                </p>
+                                <h1 class="banner-product-pricing">$600</h1>
+                                <button class="buy-now-btn">Buy Now</button>
+                            </div>
+                            <div class="col-4"><img src="css/panda-commerce/banner-images/xbox.png"
+                                    class="d-block w-100" alt="..."></div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section id="populer-product" class="container">
+        <h2 class="h2-heading">Populer Category</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="cat1 d-flex justify-content-between align-items-center text-white">
+                    <h1>Watch</h1>
+                    <img src="css/panda-commerce/categories/watch.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-4"> 
+                <div class="cat2 d-flex justify-content-between align-items-center text-white">
+                    <h1>Shoes</h1><img src="css/panda-commerce/categories/shoes.png" alt=""></div>
+            </div>
+            <div class="col-md-4">
+                <div class="cat3 d-flex justify-content-between align-items-center text-white"><h1>Bag</h1>
+                <img src="css/panda-commerce/categories/bag.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="shoes" class="container">
+        <h2 class="h2-heading">Shoes</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="css/panda-commerce/shoes/shoe-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Supply 350</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h2>$120</h2>
+                <button class="buy-now-btn">Buy Now >></button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="css/panda-commerce/shoes/shoe-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Nike 360</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h2>$320</h2>
+                    <button class="buy-now-btn">Buy Now >></button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="css/panda-commerce/shoes/shoe-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Red Airmax</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h2>$120</h2>
+                    <button class="buy-now-btn">Buy Now >></button>
+                    </div>
+                  </div>
+              </div>
+            </div>
+    </section>
+
+    <section id="backpacks" class="container">
+        <h2 class="h2-heading">backpacks</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="css/panda-commerce/bags/bag-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Red Premum Bag</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h2>$130</h2>
+                <button class="buy-now-btn">Buy Now >></button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="css/panda-commerce/bags/bag-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Blue Vip Bag</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h2>$290</h2>
+                    <button class="buy-now-btn">Buy Now >></button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="css/panda-commerce/bags/bag-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">black Professional</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h2>$169</h2>
+                    <button class="buy-now-btn">Buy Now >></button>
+                    </div>
+                  </div>
+              </div>
+            </div>
+    </section>
 
 
     <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
