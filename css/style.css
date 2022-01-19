@@ -16,7 +16,7 @@ body{
 }
 
 .carousel-item .col-7 {
-    margin-left: 30px;
+    padding-left: 100px;
 }
 
 .buy-now-btn {
@@ -87,4 +87,11 @@ body{
     background-color: rgb(250, 227, 228);
     margin: 100px auto;
     padding: 80px 30px;
+}
+
+
+@media only screen and (max-width: 576px){
+    .card{
+        margin: 0px;
+    }
 }
