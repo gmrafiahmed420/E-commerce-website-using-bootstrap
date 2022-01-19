@@ -1,75 +1,90 @@
-.banner-product-pricing{
+body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.banner-product-pricing {
     color: #e84393;
     margin-top: 10px;
 }
 
-.carousel-item{
+.carousel-item {
     background-color: rgb(250, 227, 228);
     padding: 50px 30px;
     margin-top: 80px;
     border-radius: 10px;
 }
 
-.carousel-item .col-7{
+.carousel-item .col-7 {
     margin-left: 30px;
 }
 
-.buy-now-btn{
+.buy-now-btn {
     background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
     color: #fff;
     border: none;
     border-radius: 8px;
     padding: 9px 25px;
+    margin-top: 10px;
 }
 
-.carousel-control-next{
-    margin-right: -70px;
-}
-.carousel-control-prev{
-    margin-left: -70px;
-}
-
-.slide .carousel-indicators button{
+.slide .carousel-indicators button {
     width: 15px;
     height: 4px;
     transition: .5s;
     margin: 0px 5px;
 }
-.slide .carousel-indicators button.active{
+
+.slide .carousel-indicators button.active {
     width: 35px;
     background-image: linear-gradient(to left, #3a3a3a 0%, #e74c3c 100%);
 }
 
-.cat1,.cat2,.cat3{
+.cat1,
+.cat2,
+.cat3 {
     padding: 10px 40px;
     border-radius: 20px;
     margin-top: 20px;
 }
-.cat1 img,.cat2 img,.cat3 img{
+
+.cat1 img,
+.cat2 img,
+.cat3 img {
     width: 130px;
 }
 
-.cat1{
+.cat1 {
     background-image: linear-gradient(to left, #ffc000 0%, #c7c55b 100%);
 }
 
-.cat2{
-    background-image: linear-gradient(to left, #a53158  0%, #ca59cc 100%);
+.cat2 {
+    background-image: linear-gradient(to left, #a53158 0%, #ca59cc 100%);
 }
 
-.cat3{
-    background-image: linear-gradient(to left,#00d4ff  0%,  #45459b 100%);
+.cat3 {
+    background-image: linear-gradient(to left, #00d4ff 0%, #45459b 100%);
 }
 
 
-.h2-heading{
+.h2-heading {
     margin-top: 80px;
 }
 
-.card{
+.card {
     margin: 10px 20px 0px 0px;
     border: none;
     box-shadow: 3px 3px 10px lightgray;
     border-radius: 10px;
     padding: 10px;
+}
+
+.backpacks{
+    border-radius: 5px;
+}
+
+#submit_area{
+    background-color: rgb(250, 227, 228);
+    margin: 100px auto;
+    padding: 80px 30px;
 }
